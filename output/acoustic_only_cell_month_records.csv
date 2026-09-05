@@ -1,0 +1,7 @@
+"h3_address","month","pres_acoustic","detected_days","sampled_days","acoustic_years","nlistas_ebird","ndias_ebird","positive_ebird","pres_ebird","first_positive_date","last_positive_date","ebird_sampling_status","acoustic_only_record"
+"8666b556fffffff",1,1,1,62,"2024",68,36,0,0,NA,NA,"eBird checklists without a positive record",TRUE
+"8666b50b7ffffff",2,1,1,30,"2024",47,39,0,0,NA,NA,"eBird checklists without a positive record",TRUE
+"8666b5cdfffffff",2,1,1,59,"2024",22,12,0,0,NA,NA,"eBird checklists without a positive record",TRUE
+"8666b5017ffffff",5,1,2,30,"2024",2,1,0,0,NA,NA,"eBird checklists without a positive record",TRUE
+"8666b5017ffffff",6,1,2,35,"2023;2024",3,3,0,0,NA,NA,"eBird checklists without a positive record",TRUE
+"8666b5cdfffffff",7,1,3,105,"2023;2024",14,12,0,0,NA,NA,"eBird checklists without a positive record",TRUE

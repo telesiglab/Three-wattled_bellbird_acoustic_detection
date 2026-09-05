@@ -1,0 +1,9 @@
+"month","acoustic_positive_cells","represented_in_ebird","acoustic_only_cells","proportion_acoustic_only","acoustic_only_without_ebird_sampling","acoustic_only_with_ebird_sampling"
+1,1,0,1,1,0,1
+2,3,1,2,0.666666666666667,0,2
+3,1,1,0,0,0,0
+4,2,2,0,0,0,0
+5,5,4,1,0.2,0,1
+6,5,4,1,0.2,0,1
+7,5,4,1,0.2,0,1
+12,1,1,0,0,0,0

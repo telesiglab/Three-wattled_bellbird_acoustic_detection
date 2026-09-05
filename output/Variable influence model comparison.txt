@@ -1,0 +1,14 @@
+Data: df_scaled
+Models:
+mod2: cbind(ndet, nlistas - ndet) ~ (ca_primario + ent + np + elevacion + , zi=~0, disp=~1
+mod2:     h_footprint + prec) * season + source, zi=~0, disp=~1
+mod3: cbind(ndet, nlistas - ndet) ~ (bosque + ent + np + elevacion + , zi=~0, disp=~1
+mod3:     h_footprint + prec) * season + source, zi=~0, disp=~1
+mod1: prop_det ~ (ca_primario + ca_secundario + ent + np + elevacion + , zi=~0, disp=~1
+mod1:     h_footprint + prec) * season + source, zi=~0, disp=~1
+     Df    AIC    BIC  logLik deviance  Chisq Chi Df Pr(>Chisq)    
+mod2 15 1044.0 1089.7 -507.01  1014.03                             
+mod3 15 1019.6 1065.2 -494.78   989.56 24.468      0     <2e-16 ***
+mod1 17 1019.0 1070.7 -492.50   984.99  4.566      2      0.102    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

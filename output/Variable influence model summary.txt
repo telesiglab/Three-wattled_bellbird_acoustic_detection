@@ -1,0 +1,49 @@
+ Family: binomial  ( logit )
+Formula:          prop_det ~ (ca_primario + ca_secundario + ent + np + elevacion +  
+    h_footprint + prec) * season + source
+Data: df_scaled
+Weights: nlistas_modelo
+
+      AIC       BIC    logLik -2*log(L)  df.resid 
+   1019.0    1070.7    -492.5     985.0       138 
+
+
+Conditional model:
+                                               Estimate Std. Error z value Pr(>|z|)
+(Intercept)                                    -5.54483    0.15358  -36.10  < 2e-16
+ca_primario                                    -0.95453    0.14136   -6.75 1.45e-11
+ca_secundario                                  -0.93868    0.15753   -5.96 2.54e-09
+ent                                             0.48955    0.08661    5.65 1.58e-08
+np                                             -1.11665    0.12812   -8.72  < 2e-16
+elevacion                                       0.96620    0.10985    8.80  < 2e-16
+h_footprint                                    -0.75366    0.18074   -4.17 3.05e-05
+prec                                           -0.94431    0.10374   -9.10  < 2e-16
+seasonSet-Feb (Non-Reproductive)               -0.47249    0.18683   -2.53  0.01144
+sourceCitizen science                           1.79487    0.12029   14.92  < 2e-16
+ca_primario:seasonSet-Feb (Non-Reproductive)    0.92307    0.28298    3.26  0.00111
+ca_secundario:seasonSet-Feb (Non-Reproductive)  0.56013    0.28638    1.96  0.05048
+ent:seasonSet-Feb (Non-Reproductive)           -0.30424    0.16755   -1.82  0.06940
+np:seasonSet-Feb (Non-Reproductive)             0.42303    0.23290    1.82  0.06932
+elevacion:seasonSet-Feb (Non-Reproductive)     -0.32234    0.17164   -1.88  0.06038
+h_footprint:seasonSet-Feb (Non-Reproductive)    0.35424    0.33005    1.07  0.28313
+prec:seasonSet-Feb (Non-Reproductive)           0.42718    0.17115    2.50  0.01256
+                                                  
+(Intercept)                                    ***
+ca_primario                                    ***
+ca_secundario                                  ***
+ent                                            ***
+np                                             ***
+elevacion                                      ***
+h_footprint                                    ***
+prec                                           ***
+seasonSet-Feb (Non-Reproductive)               *  
+sourceCitizen science                          ***
+ca_primario:seasonSet-Feb (Non-Reproductive)   ** 
+ca_secundario:seasonSet-Feb (Non-Reproductive) .  
+ent:seasonSet-Feb (Non-Reproductive)           .  
+np:seasonSet-Feb (Non-Reproductive)            .  
+elevacion:seasonSet-Feb (Non-Reproductive)     .  
+h_footprint:seasonSet-Feb (Non-Reproductive)      
+prec:seasonSet-Feb (Non-Reproductive)          *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
